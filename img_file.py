@@ -1,7 +1,7 @@
 import cv2
 
-img_file = "sameple_image/prod.png"
-save_file = "sameple_image/prod_gray.png"
+img_file = "sample_image/prod.png"
+save_file = "sample_image/prod_gray.png"
 # mode flag
 # cv2.IMREAD_COLOR : BGR 컬러로 읽기, 기본 값
 # cv2.IMREAD_UNCHANGED : 파일 그래로 읽기
