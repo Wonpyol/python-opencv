@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread("../sample_image/prod.png")
+img = cv2.imread("../sample_image/test.png")
 x,y,w,h = cv2.selectROI("img", img, False)
 print("x:%d,y:%d,w:%d,h:%d" % (x,y,w,h))
 
